@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: aliceblue;
+    color: black;
+    padding: 20px 0;
+}
+
+.navbar a:hover{
+    color: darkslategray;
+    transition: ease-in-out .26s;
+}

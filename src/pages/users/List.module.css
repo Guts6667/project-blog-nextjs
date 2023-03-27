@@ -1,0 +1,21 @@
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.listCard{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.listCard h2{
+    font-size: 18px;
+}
+.listCard span{
+    font-size: 14px;
+}

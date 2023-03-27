@@ -1,0 +1,25 @@
+.cardBlog{
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    min-width: 300px;
+}
+.cardBlog p{
+    font-size: 12px;
+}
+.cardBlog h2{
+    font-size: 16px;
+}
+.cardBlog a{
+    font-size: 14px;
+}
+.cardBlog a:hover{
+    color: goldenrod;
+    transition: ease-in-out .26s;
+
+}
